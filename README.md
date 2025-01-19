@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# Next-Learn
+Our LMS web application is a cutting-edge platform designed to revolutionize the way educators, learners, and institutions interact with digital learning. With a focus on accessibility, personalization, and engagement, this platform provides a seamless learning experience that addresses real-world educational challenges.
+>>>>>>> 35810782591f494a48bf41d7627dc3738b515e11
