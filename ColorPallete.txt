@@ -1,0 +1,37 @@
+Primary Colors
+Royal Blue (#2F80ED)
+
+A professional and calming color for headers, buttons, and primary actions.
+Sky Blue (#56CCF2)
+
+A lighter complementary shade for hover effects and secondary highlights.
+Secondary Colors
+Emerald Green (#27AE60)
+
+Symbolizes growth and learning. Use it for success messages or progress indicators.
+Golden Yellow (#F2C94C)
+
+Adds warmth and optimism. Great for badges or accents to draw attention.
+Neutral Colors
+Dark Gray (#4F4F4F)
+
+For text, labels, and secondary content.
+Light Gray (#E0E0E0)
+
+For borders, separators, and background elements.
+Off-White (#F9F9F9)
+
+For the main background to create a clean and modern look.
+Accent Colors
+Coral Red (#EB5757)
+
+For error messages, warnings, or critical actions.
+Purple Haze (#BB6BD9)
+
+As a stylish accent for progress bars or feature highlights.
+Example Use in UI:
+Navigation Bar: Royal Blue (#2F80ED) with text/icons in Off-White (#F9F9F9).
+Buttons: Use Royal Blue for primary buttons and Emerald Green for secondary buttons.
+Background: Off-White (#F9F9F9) for the main background with Light Gray sections (#E0E0E0).
+Alerts: Use Coral Red for errors, Emerald Green for success, and Golden Yellow for warnings.
+Typography: Dark Gray (#4F4F4F) for main text and lighter shades for subtitles.
