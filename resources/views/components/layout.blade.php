@@ -25,8 +25,8 @@
                 <a href="/exams" class="text-text-primary hover:text-primary-blue transition-colors">Exams</a>
             </nav>
             <div class="sessions w-1/4 flex justify-end space-x-4">
-                <a href="/login" class="inline-flex items-center bg-primary-blue hover:bg-primary-lightBlue text-neutral-white px-4 py-2 rounded-lg transition-colors border border-0">
-                    Sign Up
+                <a href="{{ route('register.online') }}" class="inline-flex items-center bg-primary-blue hover:bg-primary-lightBlue text-neutral-white px-4 py-2 rounded-lg transition-colors border border-0">
+                    Register
                 </a>
                 <a href="/login" class="inline-flex items-center bg-primary-blue hover:bg-primary-lightBlue text-neutral-white px-4 py-2 rounded-lg transition-colors border border-0">
                     Login
@@ -34,8 +34,8 @@
             </div>
         </header>
     </div>
-    <main>
+  
         {{ $slot }}
-    </main>
+   
 </body>
 </html>
