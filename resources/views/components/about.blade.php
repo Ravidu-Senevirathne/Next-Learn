@@ -1,4 +1,4 @@
-<section class="py-16 bg-neutral-white">
+<section id="about" class="py-16 bg-neutral-white scroll-mt-16">
     <!-- About Hero -->
     <div class="container mx-auto px-4">
         <div class="flex flex-col md:flex-row items-center justify-between gap-12">

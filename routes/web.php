@@ -12,9 +12,10 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/about', function () {
-    return view('about');
-});
+// Remove or comment out this route
+// Route::get('/about', function () {
+//     return view('about');
+// });
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

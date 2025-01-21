@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,14 +12,14 @@
     <div class="container mx-auto">
         <header class="flex justify-between items-center py-4">
             <div class="logo flex items-center w-1/4">
-                <img src="images/logo1.jpeg" alt="logo" class="w-20">
+                <img src="{{ asset('images/logo1.jpeg') }}" alt="logo" class="w-20">
                 <a href="/"> 
                     <h1 class="text-2xl font-bold text-text-primary">Next Learn</h1>
                 </a>
             </div>
             <nav class="flex items-center justify-center space-x-6 flex-1">
                 <a href="/" class="text-text-primary hover:text-primary-blue transition-colors">Home</a>
-                <a href="/about" class="text-text-primary hover:text-primary-blue transition-colors">About</a>
+                <a href="#about" class="text-text-primary hover:text-primary-blue transition-colors">About</a>
                 <a href="/contact" class="text-text-primary hover:text-primary-blue transition-colors">Contact</a>
                 <a href="/courses" class="text-text-primary hover:text-primary-blue transition-colors">Courses</a>
                 <a href="/exams" class="text-text-primary hover:text-primary-blue transition-colors">Exams</a>
