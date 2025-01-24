@@ -17,13 +17,7 @@
                     <h1 class="text-2xl font-bold text-text-primary">Next Learn</h1>
                 </a>
             </div>
-            <nav class="flex items-center justify-center space-x-6 flex-1">
-                <a href="/" class="text-text-primary hover:text-primary-blue transition-colors">Home</a>
-                <a href="#about" class="text-text-primary hover:text-primary-blue transition-colors">About</a>
-                <a href="/contact" class="text-text-primary hover:text-primary-blue transition-colors">Contact</a>
-                <a href="/courses" class="text-text-primary hover:text-primary-blue transition-colors">Courses</a>
-                <a href="/exams" class="text-text-primary hover:text-primary-blue transition-colors">Exams</a>
-            </nav>
+            <x-nav-links />
             <div class="sessions w-1/4 flex justify-end space-x-4">
                 <a href="{{ route('register.online') }}" class="inline-flex items-center bg-primary-blue hover:bg-primary-lightBlue text-neutral-white px-4 py-2 rounded-lg transition-colors border border-0">
                     Register

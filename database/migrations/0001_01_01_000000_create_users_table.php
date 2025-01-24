@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('mobile');
             $table->date('dob');
-            $table->enum('role', ['student', 'lecturer']);
+            $table->enum('role', ['student', 'lecturer','admin']);
             $table->string('education_level')->nullable();
             $table->string('specialization')->nullable();
             $table->integer('experience')->nullable();

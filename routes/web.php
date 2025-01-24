@@ -2,29 +2,29 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\OnlineRegisteringController;
+use App\Http\Controllers\ContactController;  
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::middleware(['auth', 'verified'])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
 
-// Remove or comment out this route
-// Route::get('/about', function () {
-//     return view('about');
-// });
-
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::middleware('auth')->group(function () {
+        Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+        Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+        Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    });
 });
 
 // Registration routes
 Route::get('/register/online', [OnlineRegisteringController::class, 'create'])->name('register.online');
 Route::post('/register/online', [OnlineRegisteringController::class, 'store'])->name('register.store');
+
+Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 
 require __DIR__.'/auth.php';
